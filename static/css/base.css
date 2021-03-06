@@ -1,3 +1,34 @@
 .hero-container {
-    height: 60vh;
+    height: 75vh;
+    width: 100%;
+    background-color: #F20F79;
+    clip-path: polygon(0 0, 100% 0%, 100% 52%, 0% 100%);
+    border: 0;
+    z-index: -1;
+}
+
+.hero-text-container{
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 100px;
+}
+
+.navbar-container{
+    background-color: #F20F79;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.navbar-container a{
+    color: white;
+}
+
+.btn-pink{
+    color: white;
+    background-color: #D98F8F;
+}
+
+.nav-item{
+    margin: 0 4px;
 }
